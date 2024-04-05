@@ -1,11 +1,12 @@
 {
-    "name": "asantibanez/laravel-blade-sortable",
+    "name": "anisotton\/laravel-blade-sortable",
     "description": "Custom Blade components to add sortable/drag-and-drop HTML elements in your apps",
     "keywords": [
         "asantibanez",
-        "laravel-blade-sortable"
+        "laravel-blade-sortable",
+        "anisotton"
     ],
-    "homepage": "https://github.com/asantibanez/laravel-blade-sortable",
+    "homepage": "https://github.com/anisotton/laravel-blade-sortable",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -13,11 +14,16 @@
             "name": "Andrés Santibáñez",
             "email": "santibanez.andres@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Anderson Isotton",
+            "email": "anderson@isotton.com.br",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.2|^7.3|^7.4|^8.0",
-        "illuminate/support": "^7.0|^8.0|^9.0"
+        "php": "^7.2|^7.3|^7.4|^8.0|^8.1",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0"
     },
     "require-dev": {
         "orchestra/testbench": "^5.0|^6.0",
