@@ -35,14 +35,16 @@
 
                         const from = evt?.from?.dataset?.name
                         const to = evt?.to?.dataset?.name
+                        const sortKey = evt.item.dataset.sortKey;
 
-                        this.wireComponent.call(
+                        this.$wire.call(
                             this.wireOnSortOrderChange,
+                            sortKey,
                             this.sortOrder,
                             previousSortOrder,
                             this.name,
                             from,
-                            to,
+                            to
                         )
                     },
                 });
